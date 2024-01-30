@@ -1,0 +1,24 @@
+/* HEADER */
+.main-container {
+    max-width: 80rem;
+    height: 100rem;
+    margin-left: 20rem; /* 320px para rem */
+    margin-right: 3.5rem; /* 56px para rem */
+  }
+  
+  .header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.625rem; /* 10px para rem */
+    margin: 1.25rem; /* 20px para rem */
+    border-radius: 0.5rem; /* 8px para rem */
+    background-color: #121212;
+  }
+  
+  .header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
